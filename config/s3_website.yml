@@ -1,0 +1,13 @@
+s3_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+s3_secret: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+s3_bucket: www.rightangle.cc
+
+gzip:
+  - .html
+  - .css
+
+s3_endpoint: us-west-2
+
+s3_reduced_redundancy: true
+
+extensionless_mime_type: text/html

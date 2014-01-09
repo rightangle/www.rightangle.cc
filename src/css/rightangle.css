@@ -1,0 +1,97 @@
+a {
+  color: #294172;
+}
+
+body {
+  color: #252525;
+  font-family: "Open Sans", Helvetica, Arial, Sans-Serif;
+}
+
+div.container {
+  margin: 0px auto;
+  width: 980px;
+}
+
+footer {
+  font-size: smaller;
+  margin-top: 10px;
+}
+
+footer div.container {
+  border-top: 2px solid #f0f0f0;
+  padding-top: 5px;
+}
+
+footer .links {
+  margin: 0px;
+  padding: 0px;
+  list-style: none outside none;
+}
+
+footer .links li {
+  display: inline-block;
+}
+
+footer .links li + li {
+  margin-left: 12px;
+}
+
+footer .links.left {
+  float: left;
+}
+
+footer .links.right {
+  float: right;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #294172;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main {
+  background-color: #fff;
+}
+
+strong {
+  color: #000;
+}
+
+address {
+  font-size: smaller;
+  font-style: normal;
+}
+
+address dl {
+  margin: 0;
+  padding: 0;
+}
+
+address dt,
+address dd {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+address dt {
+  font-weight: bold;
+}
+
+address dt:after {
+  content: ': ';
+}
+
+address dd {
+  margin-left: 0.25em;
+}
+
+address dd:after {
+  content: "\A";
+  white-space: pre;
+}
