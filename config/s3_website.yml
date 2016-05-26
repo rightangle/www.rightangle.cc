@@ -2,6 +2,10 @@ s3_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
 s3_secret: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
 s3_bucket: www.rightangle.cc
 
+cache_control:
+  "*.png": public, max-age=3600
+  "*": public, max-age=0
+
 gzip:
   - .html
   - .css
@@ -9,5 +13,3 @@ gzip:
 s3_endpoint: us-west-2
 
 s3_reduced_redundancy: true
-
-extensionless_mime_type: text/html
